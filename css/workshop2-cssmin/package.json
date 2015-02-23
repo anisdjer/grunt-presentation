@@ -1,0 +1,18 @@
+{
+  "name": "grunt-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anis B <leprinceanis@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "devDependencies": {
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-cssmin": "^0.12.2"
+  }
+}
