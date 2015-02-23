@@ -46,6 +46,16 @@ module.exports = function(grunt) {
                 src: 'script.js',
                 dest: 'script.min.js'
             }
+        },
+
+        // http://usejsdoc.org/
+        jsdoc : {
+            dist : {
+                src: ['script.js', 'circle.js'],
+                options: {
+                    destination: 'doc'
+                }
+            }
         }
 
 
@@ -58,6 +68,8 @@ module.exports = function(grunt) {
 
 
     grunt.loadNpmTasks( 'grunt-contrib-uglify' );
+
+    grunt.loadNpmTasks( 'grunt-jsdoc' );
 
 
 };
